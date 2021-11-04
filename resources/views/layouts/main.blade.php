@@ -10,5 +10,6 @@
     <main>
         @yield('content')
     </main>
+    {{-- @yield('script-adder') --}}
 </body>
 </html>

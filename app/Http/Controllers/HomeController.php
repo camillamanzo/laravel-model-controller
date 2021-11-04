@@ -11,8 +11,7 @@ class HomeController extends Controller
     public function index()
     {
         $movies = Movie::all();
-
-        dd($movies);
+        // dd($movies);
         $data = [
             "movies" => $movies
         ];
